@@ -1,0 +1,55 @@
+:root {
+	--dark: #05152E;
+	--darker: #1F2937;
+	--darkest: #001E3C;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "F Float Drink", sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #FFFFFF;
+	background-color: var(--dark);
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+h1{
+	text-align: center;
+}
+button{
+	cursor: pointer ;
+}
+#new-goal-submit{
+	cursor: pointer ;
+}
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: white;
+	margin: 3%;
+	text-align: center;
+}
+.button {
+	width:50%;
+	padding-top:5vh;
+	padding-bottom:5vh;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 6vh;
+    border: 3px solid var(--pink);
+    border-radius: 5vh;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}

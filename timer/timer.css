@@ -1,0 +1,16 @@
+#timer{
+    width: 20vw;
+    height: 20vw;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+	cursor: pointer;
+    border-radius: 100%;
+    border: 3px solid var(--pink);
+}
+
+#timer:disabled {
+    color:black;
+}

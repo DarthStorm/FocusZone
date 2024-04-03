@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="timer.css">
+    <script src="../script.js"></script>
+    <script src="../dexie.js"></script>
+    <title>FocusZone - Timer</title>
+</head>
+<body>
+    <h1 class = "page-title">FocusZone</h1>
+    <button onclick = "startTimer()" id = "timer">TIMER</button>
+    <!-- 
+    gotta put it here, otherwise it doesnt work
+    must be put after window onload 
+    -->
+    <form class = "centered" action="">
+        <label for="goal">Goal:</label> 
+        <select name="goal" id="goal-dropdown">
+            <option value="goals 1">1</option> 
+        </select>
+    </form>
+    <script src="timer.js"></script>
+</body>
+</html>

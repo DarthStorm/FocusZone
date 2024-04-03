@@ -1,0 +1,134 @@
+/* 
+*{
+    border: 3px solid black;
+} /**/
+
+:root {
+    --goal-div-size: min(50vw,50vh);
+}
+
+#create-new-goal > h2 {
+    position: relative;
+    text-align: center;
+    top: 5%;
+}
+
+#create-new-goal > .input-field {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 4% auto;
+    width: 80%;
+}
+
+#create-new-goal > .input-field:nth-of-type(1){
+    top: 15%;
+}
+
+#create-new-goal > .input-field:nth-of-type(2){
+    top: 25%;
+}
+.goals-list {
+    width: 100%;
+    
+}
+.goals-list > h2{
+    margin: 1%;
+	text-align: center;
+}
+
+#goals {
+    text-align: center;
+}
+.goal {
+    display: flex;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 1rem;
+	border-radius: 1rem;
+    margin: auto auto 1rem auto;
+    width: 80%;
+
+}
+.goal input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: #FFFFFF;
+    
+    
+}
+
+.content {
+    text-align: left;
+}
+
+.progress {
+    color: #EC4899;
+}
+
+.actions > button {
+    color:var(--light);
+	background-color: var(--darkest);
+    border: 3px solid var(--light);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.actions > button:nth-of-type(1) {
+    color:crimson;
+}
+
+#new-goal-div{
+    z-index: 1000;
+    position: absolute;
+    width:var(--goal-div-size);
+    height:var(--goal-div-size);
+    background-color: green;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#new-goal-submit{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 30%;
+    height: 10%;
+}
+
+#create-new-goal{
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    margin: auto;
+}
+
+#create-button {
+    z-index: 1000;
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 25%;
+    /* delete once i use svgs instead */
+    font-size: calc(var(--goal-div-size) / 17)
+}
+
+#clickcapture {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.2;
+}

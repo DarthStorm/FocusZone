@@ -1,0 +1,17 @@
+/* get rid of this to fit criteria  */
+/* #editorjs {
+    background-color: #4674BE;
+    color: #05152E;
+} */
+
+#editorjs .ce-toolbar__plus path, #editorjs .ce-toolbar__settings-btn path{
+    stroke: #EEEEEE !important;
+}
+
+#editorjs .ce-toolbar__plus svg:hover path {
+    stroke: #000000 !important;
+}
+
+#editorjs .ce-inline-toolbar__toggler-and-button-wrapper path {
+    stroke: #000000 !important;
+}

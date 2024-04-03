@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="goals.css">
+    <script src="../script.js"></script>
+    <script src="../dexie.js"></script>
+    <title>FocusZone - Goals</title>
+</head>
+<body>
+    <h1 class = "page-title">Goals</h1>
+    <div id = "new-goal-div" hidden>
+        <form id="create-new-goal">
+            <h2>Create New Goal</h2>
+            <input class = "input-field" type="text" name="new-goal-name" id="new-goal-name" placeholder="Ex: Work on project"/><br>
+            <input class = "input-field" type="number" name="new-goal-total" id="new-goal-total" placeholder="Total Progress"/><br>
+            <input type="submit" id="new-goal-submit" value="Add new goal."/><br>
+        </form>
+    </div>
+    <section class="goals-list">
+        <h2>All Goals</h2>
+        <div id="goals"></div>
+    </section>
+    <button id = "create-button">+</button>
+    <div id = "clickcapture" hidden></div>
+    <script src="goals.js"></script>
+</body>
+</html>
