@@ -15,8 +15,8 @@ if (end_time == null) {
     end_time = -1; //unset
     localStorage.setItem("end_time", end_time);
 }
-let work_time = 0.1;
-let rest_time = 0.05;
+let work_time = 25;
+let rest_time = 5;
 
 let timerInterval;
 
