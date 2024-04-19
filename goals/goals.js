@@ -35,6 +35,8 @@ const clickcapture = document.getElementById("clickcapture");
 form.onsubmit = async(event) => {
     event.preventDefault();
     await addGoal(sanitize(newGoalName.value),0,parseInt(newGoalTotal.value)>0?parseInt(newGoalTotal.value):-1)
+    
+    toggleScreen()
 };
 async function addGoal(name,progress,total){
     console.log({goal:name,progress:progress,total:total});
@@ -43,6 +45,7 @@ async function addGoal(name,progress,total){
     form.reset();
 }
 function toggleScreen(event){
+
     newGoalDiv.hidden = !newGoalDiv.hidden;
     clickcapture.hidden = !clickcapture.hidden;
 }

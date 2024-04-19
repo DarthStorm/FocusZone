@@ -23,3 +23,4 @@
 - https://stackoverflow.com/questions/4201239/in-html5-is-the-localstorage-object-isolated-per-page-domain
 - https://stackoverflow.com/questions/9529300/can-i-change-the-fill-color-of-an-svg-path-with-css
 - https://stackoverflow.com/questions/10487292/position-absolute-but-relative-to-parent
+- https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working
